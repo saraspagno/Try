@@ -41,9 +41,9 @@ If you've finished other tasks and still have time, go ahead and try to fix that
 1c.
  Agents use this system all day, white can be quite a tiring color on the eyes 😫.
 
-  1.Add a "dark mode" button or clickable text that will change the background of the UI to `black` and the basic font of the outline to `white`.
-  2.When the "dark mode" is enabled let the user revert it with a button or clickable text that will change the background of the UI to `white` and the basic font   of the outline to `black`.
-  use "dark mode" and "light mode" as the text for those different button states.
+Markup:  1.Add a "dark mode" button or clickable text that will change the background of the UI to `black` and the basic font of the outline to `white`.
+         2.When the "dark mode" is enabled let the user revert it with a button or clickable text that will change the background of the UI to `white` and the              basic font   of the outline to `black`.
+         use "dark mode" and "light mode" as the text for those different button states.
 
 
 #### 1D - Bonus Task
@@ -58,8 +58,8 @@ If you've finished other tasks and still have time, go ahead and try to fix that
 They gave the example that when searching for "wix store", the ticket titled "Search bar for my wix store" (id `6860d043-f551-58c8-84d6-f9e6a8cb0cb2`) is not returned.
 Checking the data, that ticket does exist...
 
-  1.Add a query param `?search=` to the `/tickets` API call and implement it on the server side.
-  2.Connect your client side search bar to that API call
+Markup: 1.Add a query param `?search=` to the `/tickets` API call and implement it on the server side.
+        2.Connect your client side search bar to that API call
 
 
 2b. We're showing only 20 tickets but agents can swear there are more. Solve this problem.  
